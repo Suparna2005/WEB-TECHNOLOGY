@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body> 
+    <form action="#"
+    class="Std_registration">
+    <header>
+        <nav>
+            <div class="l_section">
+                <!--college name-->
+                <img src="https://brainwareuniv.in/images/1bwu-logo.png" alt="logo">
+            </div>
+            <!--college address-->
+            <div class="r_section">
+                <h2 class="title">Brainware University</h2>
+                <p>Brainware University,398,<br> Ramkrishnapur Road, <br> Barsat,kolkata-700125</p>
+            </div>
+        </nav>
+    </header>
+<main>
+    <!--form body-->
+    <div class="formbody">
+        <div class="formtitle">
+            <h2 class="title">Student Registration Form</h2>
+        </div>
+        <!--basic info title-->
+        <div class="heading">
+            <span>Basic information</span>
+        </div>
+        <!--form information-->
+        <div class="forminfo">
+            <div class="StdInfo">
+                <!--First Name-->
+                <div class="name">
+                    <h3>Full Name :</h3>
+                    <input class="input_box" id="first_name" type="text" required />
+                    <p>First Name</p>
+                </div>
+                <!--middle name-->
+                <div class="name " id="middleName">
+                    <input class="input_box" id="middle_name" type="text" required />
+                    <p>Middle Name</p>
+                </div>
+                <!--last name-->
+                <div class="name " id="lastName">
+                    <input class="input_box" id="middle_name" type="text" required />
+                    <p>Last Name</p>
+                </div>
+            </div>
+            <br>
+            <div class="student_year">
+                <!--Student number-->
+                <div class="left">
+                    <h3>Student Number: </h3>
+                    <input class="input_box" type="number" required />
+                    <p>e.g. +9125631255</p>
+                </div>
+                <br>
+                <!--Year level-->
+                <div class="right">
+                    <H3>Year level</H3>
+                    <select name="year" id="year" required>
+                        <option value="disabled selected">Please Select</option>
+                        <option value="1">1st Year</option>
+                        <option value="2">2nd Year</option>
+                        <option value="3">3rd Year</option>
+                        <option value="4">4th Year</option>
+                    </select>
+                    <p>For Incoming A.Y. '12-'13</p>
+                </div>
+            </div>
+            <!--Degree Program and Gmail-->
+            <div class="degree_email">
+                <div class="left">
+                    <h3>Degree Program</h3>
+                    <select name="degree" id="degree">
+                        <option value="select disabled">
+                            Please Select 
+                        </option>
+                        <option value="1">B.Tech-CSE</option>
+                        <option value="2">B.Tech CSE-DS</option>
+                        <option value="3">B.Tech CSE-AIML</option>
+                        <option value="4">B.Tech CSE-Core</option>
+                        <option value="5">B.Tech Robotics</option>
+                        <option value="6">BCA</option>
+                    </select>
+                </div>
+                <div class="right">
+                    <h3>Email</h3>
+                    <input type="email" placeholder="ex:myname@example.com" class="input_box">
+                </div>
+            </div>
+            <!--Mobile Number Network Provider-->
+            <div class="phn_network">
+                <div class="left">
+                    <!--Left Section-->
+                    <h3>Phone Number</h3>
+                    <input type="tel" name="tel" class="input_box" placeholder="(000)000-0000">
+                </div>
+                    <!---Right Section--->
+                    <div class="right">
+                        <h3>Date of Birth</h3>
+                        <input type="date" name="date" class="input_box">
+                    </div>
+            </div>
+            <!--Present Address-->
+            <div class="address">
+                <h3>Present Address</h3>
+                <div class="address1">
+                    <input type="text" class="input_box" required/>
+                    <p>Street Address</p>
+                <div class="address2">
+                    <input type="text" class="input_box" required/>
+                    <p>Street Address Line 2</p>
+                </div>
+                <!--city and state-->
+                <div class="city_state">
+                    <div class="left">
+                        <input class="input_box" type="text" required/>
+                        <p>City</p>
+                    </div>
+                    <div class="right">
+                        <input class="input_box" type="text" required/>
+                        <p>State /Province</p>
+                    </div>
+                    <!--postal code and country-->
+                    <div class="code_country">
+                        <div class="left">
+                            <input class="input_box" type="text" required/>
+                            <p>Postal / Zip Code</p>
+                        </div>
+                     <!--country-->   
+                        <div class="right">
+                            <select name="degree" id="degree">
+                                <option value="Select Disabled">
+                                   Please Select 
+                                </option>
+                                <option value="1"> India </option>
+                                <option value="2"> Srilanka </option>
+                                <option value="3"> Bangladesh</option>
+                                <option value="4"> United State </option>
+                                <option value="5"> Austrelia</option>
+                                <option value="1"> United Kingdom</option>
+                            </select>
+                            <p>Country :</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>    
+ <footer>
+    <div class="print_submit">
+        <div class="print">
+            <input type="button" value="print" id="print" onclick="printContent()">
+        </div>
+       <div class="submit">
+        <input type="submit" value="submit" id="submit">
+       </div>
+    </div>
+    <div class="tail">
+        <a href="#">Clear Form</a>
+    </div>
+ </footer>       
+</form>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,5 @@
+1.Develop a table generate using javascript by applying the technique of input from the user prompt function.
+2.Generate a number from 1-10
+    If he guess correctly display message correct if guess is wrong then display "try again"and loop till get it right.
+3.Built a sample quiz application. Use prompt function to ask three quiz question, store the correct answer in variables,use the loop to check the answers,display the finance code using alert function
+ (Hint: Use the technique of array and associated array) .

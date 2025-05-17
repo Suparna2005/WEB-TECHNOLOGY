@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding:0%;
+    box-sizing:border-box;
+    font-family: "poppins",sans-serif;
+}
+/* from body*/
+body{
+    background-color:rgb(152, 185, 215);
+    margin:0 80px 0 80px;
+}
+.Std_registration{
+    background-color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vh;
+    border-bottom: 2px solid #b8b5b5;
+}
+.title{
+    text-transform: uppercase;
+    color:rgb(92,32,32)
+}
+.l_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.l_section img{
+    padding-right: 10px;
+}
+.l_section .title{
+    font-size: 2em;
+    font-weight: 650;
+}
+/*right section*/
+.r_section p{
+    color:rgb(66,67,94);
+    font-size: 0.8em;
+    font-weight: 400;
+}
+.r_section .title{
+    font-size: 1.0em;
+    font-weight: 650;
+}
+/* from body*/
+body{
+    margin:20px 60px 20px 60px;
+}
+/*Student registration form*/
+.formbody .formtitle.title{
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    color:#2C3345;
+}
+/*Basic information title*/
+.formbody.heading{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #dee0e6;
+    border-radius: 4px 4px 4px 4px;
+}
+.formbody.heading span{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*Form Information*/
+.formbody p{
+    font-size: 0.8em;
+    font-weight: 300;
+    padding-top: 10px;
+ }
+.formbody h3{
+    font-size: 1.3em;
+    font-weight: 300;
+}
+/*for input box*/
+.formbody.input_box{
+    height: 40px;
+    width: 100%;
+    background-color: :white;
+    padding: 0px 10px;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color:#585454;
+}
+/*for select portion*/
+.formbody select{
+    height: 40px;
+    width: 70%;
+    padding: 0px 15px;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color:#585454;
+}
+.StdInfo{
+    display:flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-top: 20px;m
+}
+.StdInfo.name{
+    width: 32.8%;
+}
+.StdInfo #middleName{
+    padding-top: 28px;
+}
+.StdInfo #lastName{
+    padding-top: 28px;
+}
+/*left and right section of form after std info section*/
+.formbody.left{
+    width: 45%;
+}
+.formbody.right{
+    width: 45%;
+}
+/*Student nmuber and year */
+.student_year{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+/*Degree program and Email*/
+.degree_email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+}
+/*Adress*/
+.address{
+    margin-top: 20px;
+}
+.address.city_state{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+}
+.code_country{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+}
+/*print and submit button*/
+.print_submit{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:120px;
+    border-top: 2px solid #b8b5b5;
+    border-bottom: 2px solid #b8b5b5;
+}
+.print_submit #print{
+    height:45px;
+    width:150px;
+    background-color: #fff;
+    border-radius: 4px 4px 4px 4px;
+}
+.print_submit #submit{
+    height:45px;
+    width:250px;
+    background-color: black;
+    border-radius: 4px 4px 4px 4px;
+    margin-left: 15px;
+    color:#FFF;
+}
+.tail{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.tail a{
+    color:#7e7979;
+    margin-left: 30px;
+}

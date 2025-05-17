@@ -1,0 +1,13 @@
+body{
+        size: 400px;
+        font-style: italic;
+        color:rgb(63, 16, 77);
+        background-color: #d6cbd3;
+        border-width: 30px;
+        border-color: rgb(14, 1, 71);
+ }
+ h3 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
